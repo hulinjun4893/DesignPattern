@@ -34,7 +34,7 @@ public class SimpleFactoryContext {
   private Strategy strategy;
 
   public SimpleFactoryContext() {
-    String name = null;
+    /*String name = null;
     try {
       XMLConfiguration config = new XMLConfiguration("strategy.xml");
       name = config.getString("strategy.name");
@@ -52,7 +52,7 @@ public class SimpleFactoryContext {
       }
     } else {
       LOG.error("Specified Strategy name {} does not exist", name);
-    }
+    }*/
 
   }
 
